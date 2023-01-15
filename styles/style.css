@@ -1,0 +1,270 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+/* utilities */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn {
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px;
+    border: 0;
+}
+
+/* nav */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 150px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+/* header */
+.header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.header-container {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.header-details {
+    /* width: 50%; */
+    margin: 10px 500px;
+
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 20px;
+    /* width: 50%; */
+}
+
+.header-des {
+    color: #727272;
+    margin-bottom: 30px;
+
+}
+
+.header-container .header-banner {
+    /* width: 70%; */
+    border-radius: 8px;
+    padding: 15px 150px;
+}
+
+.header-banner img {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* align-self: center; */
+}
+
+/* main */
+
+/* quick list feature */
+
+.quick-list {
+    display: flex;
+    margin-top: 20px;
+    padding: 5px 300px;
+    align-items: center;
+    gap: 90px;
+}
+
+.list-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.quick-list-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+    margin-bottom: 25px;
+}
+
+.quick-list-title .of-our {
+    font-weight: 700;
+    color: #131313;
+}
+
+.quick-list-title .feature {
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.quick-list-des {
+    color: #727272;
+    margin-bottom: 25px;
+
+}
+
+/* love feature section */
+
+.love-feature-container {
+    display: flex;
+    margin: 130px 200px;
+    gap: 50px;
+    height: 1059px;
+}
+
+.love-feature-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    color: #131313;
+}
+
+.love-feature-des {
+    color: #727272;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 30px;
+}
+
+.article {
+    height: 140px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+}
+
+.padding-article {
+    padding: 30px;
+}
+
+.feature-btn {
+    width: 342px;
+    height: 200px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    padding: 30px;
+    text-align: center;
+    border: 0;
+}
+.image-button img{
+    height: 982px;
+}
+.feature-btn .btn-experience {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* some facts */
+.some-facts{
+margin: 250px 1100px 100px 200px;
+}
+.some-facts-title{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+margin-bottom: 30px;
+}
+.some-facts-des{
+    color: #727272;
+}
+/* icons */
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 120px;
+}
+.icons-container{
+    border: 1px solid #FF900E;
+border-radius: 8px;
+width: 240px;
+height: 240px;
+}
+.icons-details{
+padding: 50px;
+text-align: center;
+
+}
+.icon-number{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.icon-des{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+/* our sponsors */
+
+.our-sponsors{
+    text-align: center;
+}
+.sponsor-details{
+    margin-bottom: 50px;
+}
+.sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 25px;
+}
+.sponsor-des{
+    color: #727272;
+
+}
+.our-sponsors img{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer{
+    background: #FFF4E7;
+border-radius: 8px;
+text-align: center;
+margin: 130px 150px;
+}
+.footer-des{
+    font-weight: 400;
+font-size: 20px;
+padding: 40px 400px;
+}
