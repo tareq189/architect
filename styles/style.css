@@ -149,7 +149,14 @@ body {
     font-size: 45px;
     margin-top: 30px;
     margin-bottom: 25px;
+    padding-left: 10px;
     color: #131313;
+
+}
+
+.vl {
+    border-left: 5px solid #FF900E;
+    height: 106px;
 }
 
 .love-feature-des {
@@ -186,85 +193,100 @@ body {
     text-align: center;
     border: 0;
 }
-.image-button img{
+
+.image-button img {
     height: 982px;
 }
+
 .feature-btn .btn-experience {
     font-weight: 500;
     font-size: 25px;
 }
 
 /* some facts */
-.some-facts{
-margin: 250px 1100px 100px 200px;
+.some-facts {
+    margin: 250px 1100px 100px 200px;
 }
-.some-facts-title{
+
+.some-facts-title {
     font-weight: 700;
-font-size: 45px;
-color: #131313;
-margin-bottom: 30px;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 30px;
 }
-.some-facts-des{
+
+.some-facts-des {
     color: #727272;
 }
+
 /* icons */
-.icons{
+.icons {
     display: flex;
     justify-content: space-evenly;
     margin: 120px;
 }
-.icons-container{
+
+.icons-container {
     border: 1px solid #FF900E;
-border-radius: 8px;
-width: 240px;
-height: 240px;
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
 }
-.icons-details{
-padding: 50px;
-text-align: center;
+
+.icons-details {
+    padding: 50px;
+    text-align: center;
 
 }
-.icon-number{
+
+.icon-number {
     font-weight: 600;
     font-size: 45px;
     color: #424242;
 }
-.icon-des{
+
+.icon-des {
     font-weight: 600;
     font-size: 20px;
     color: #727272;
 }
+
 /* our sponsors */
 
-.our-sponsors{
+.our-sponsors {
     text-align: center;
 }
-.sponsor-details{
+
+.sponsor-details {
     margin-bottom: 50px;
 }
-.sponsor-title{
+
+.sponsor-title {
     font-weight: 700;
     font-size: 45px;
     color: #131313;
     margin-bottom: 25px;
 }
-.sponsor-des{
+
+.sponsor-des {
     color: #727272;
 
 }
-.our-sponsors img{
+
+.our-sponsors img {
     margin-left: 50px;
     margin-right: 50px;
 }
 
-.footer{
+.footer {
     background: #FFF4E7;
-border-radius: 8px;
-text-align: center;
-margin: 130px 150px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 130px 150px;
 }
-.footer-des{
+
+.footer-des {
     font-weight: 400;
-font-size: 20px;
-padding: 40px 400px;
+    font-size: 20px;
+    padding: 40px 400px;
 }
