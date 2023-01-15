@@ -167,6 +167,7 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin-top: 30px;
+    grid-row-gap: 20px;
 }
 
 .article {
